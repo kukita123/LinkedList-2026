@@ -5,13 +5,27 @@
         static void Main(string[] args)
         {
             #region 1vaGrupa
+            //MyLinkedList list = new MyLinkedList();
+            //list.AddFirst(10);
+            //list.AddFirst(20);
+            //list.AddFirst(30); //30  20  10
+
+            //list.AddLast(40);//30  20  10  40
+            //list.AddLast(50);// 30  20  10  40  50
+            //Console.ReadKey();
+            #endregion
+
+            #region 2ra grupa
             MyLinkedList list = new MyLinkedList();
+
             list.AddFirst(10);
             list.AddFirst(20);
-            list.AddFirst(30); //30  20  10
+            list.AddFirst(30);  //30  20  10
 
-            list.AddLast(40);//30  20  10  40
-            list.AddLast(50);// 30  20  10  40  50
+            list.AddLast(40); //30  20  10  40
+            list.AddLast(50); //30  20  10  40  50
+
+            Console.WriteLine("List size: " + list.Size);
             Console.ReadKey();
             #endregion
         }
